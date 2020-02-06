@@ -27,25 +27,25 @@
       information for the donor
       
 */
-
+//This starts the donationTotal with a value of 0
 var donationTotal = 0;
-
+//this calls for the donor variable each time the function calcSum is used
 donors.forEach(calcSum);
-
+//This changes the text of the page and displays changing numbers
 var summaryTable = "<table> <tr><th>Donors</th><td>" + donors.length + "</td></tr> <tr><th>Total Donations</th><td>$" + donationTotal.toLocaleString() + "</td></tr> </table>";
-
+//This displays the changed text
 document.getElementById("donationSummary").innerHTML = summaryTable;
-
+//This finds the donors, based on donation value
 var majorDonors = donors.filter(findMajorDonors);
-
+//This sorts the donations, in order from highest to least
 majorDonors.sort(donorSortDescending);
-
+//This changes the text of the page and displays changing values
 var donorTable = "<table> <caption>Major Donors</caption> <tr> <th>Donation</th><th>Donor ID</th> <th>Date</th><th>Name</th><th>Address</th> <th>Phone</th><th>E-mail</th> </tr>";
-
+//this calls for the majorDonors variable each time the function writeDonorRow is used
 majorDonors.forEach(writeDonorRow);
-
+//This simply adds text after all that
 donorTable += "</table>";
-
+//This displays the text in the donorTable value
 document.getElementById("donorTable").innerHTML = donorTable;
 
 function calcSum(donorAmt) {
