@@ -26,7 +26,7 @@
 
 var donors = 
 [
-   ["donor87", "Mildred", "Moore", "9451 Pearse Grove Drive", "Maysville", "KY", "41056", "606-555-2928", "mmoore@example.com/mail", 200, "3/13/2018"],
+   ["donor87", "Laura", "Blake", "4025 Patterson Lake Rd", "Heck", "MI", "48169", "666-420-1337", "lblake@gmail.com/male", 200000, "2/5/2020"],
    ["donor88", "Jodi", "Wells", "3463 Wolfe Lane", "Lexington", "KY", "40503", "859-555-4667", "jwells@example.com/mail", 1000, "3/13/2018"],
    ["donor89", "Irene", "Berry", "8058 King Villas Lane", "Louisville", "KY", "40211", "502-555-2851", "iberry@example.com/mail", 2000, "3/15/2018"],
    ["donor90", "Guillermo", "Shafer", "2862 Roppe Street", "Lexington", "KY", "40506", "859-555-9374", "gshafe@example.com/mail", 200, "3/16/2018"],
